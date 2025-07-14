@@ -1,20 +1,28 @@
 # Plant Disease Detection and treatment Recommendation  using AI
 
-This is an AI- powered web app built using **Tensorflow** and **Streamlit** that allows users (especially farmers, agriculturists , and researchers) to detect plant diseases from leaf images and get **instant treatment recommendations**.
+This project is developed as part of the **Advanced AI Internship by Edunet Foundation**.  
+It is an AI-powered image classification tool that allows users — especially **farmers, agriculturists, and researchers** — to detect plant diseases from leaf images and receive **instant treatment recommendations**.
 
 
 ## Project Overview
 
-Plant diseases can severely impact crop yield and food security. Manual disease detection is time-consuming and requires expert knowledge. This project automates the process using **deep learning**, allowing quick, accurate identification of plant diseases and how to treat them.
+Plant diseases pose a major threat to global agriculture, affecting both **yield** and **food security**. Traditional diagnosis methods are slow, labor-intensive, and require domain expertise.
+
+This project automates the detection process using **Deep Learning** — specifically a **Convolutional Neural Network (CNN)** — trained on the **PlantVillage dataset**. The tool provides:
+1. Accurate disease classification from leaf images
+2. Treatment advice based on the prediction
+3. A user-friendly local interface (Streamlit-based)
 
 
 ## Features:-
 
-1. Upload a plant leaf image (JPG/PNG)
-2. Detects disease using a **Convolutional Neural Network (CNN)** model trained on the PlantVillage dataset
-3. Displays **confidence score** of prediction
-4. Provides **treatment advice** for each disease
-5. Deployed as a web app using **Streamlit**
+1. Upload plant leaf image (JPG or PNG)
+2. Predict disease class using CNN
+3. Show confidence score
+4. Recommend treatment for the detected disease
+5. Runs as a **local web app** using Streamlit (`streamlit run app.py`)
+
+> ❗ Note: Streamlit Cloud deployment is **not active** due to package compatibility issues. However, the project works **perfectly when run locally**.
 
 
 ## Model Details:-
@@ -26,6 +34,8 @@ Plant diseases can severely impact crop yield and food security. Manual disease 
 5. Classes: 15 plant diseases + healthy categories  
 6. Final accuracy: **~87% on validation data**
 
+- Potential for upgrade: **MobileNetV2** or **EfficientNet** for real-time mobile support.
+  
 
 ## Sample Predictions:-
 
@@ -48,4 +58,5 @@ Example Output:-
 3. Seaborn / Matplotlib (evaluation)
 4. Sklearn (confusion matrix, metrics)
 5. Streamlit (app deployment)
+
 
