@@ -49,6 +49,10 @@ Example Output:-
 3. Confidence Score :  95.83%
 
 4. Recommended Treatment: Apply Bordeaux mixture; prune infected parts
+  
+<img width="1912" height="842" alt="image" src="https://github.com/user-attachments/assets/9092ce87-4c4e-42a2-b830-0b600cd7ca53" />
+
+<img width="1132" height="1420" alt="image" src="https://github.com/user-attachments/assets/b66102f1-84e7-4bbc-b158-e75af03c6843" />
 
 
 ## Technologies Used
@@ -60,3 +64,24 @@ Example Output:-
 5. Streamlit (app deployment)
 
 
+## Deployment Note:-
+
+Due to version conflicts between streamlit and tensorflow in dependency resolution (specifically protobuf), deployment to Streamlit Cloud was not successful.
+
+1. The application runs successfully on local system
+
+2. Screenshots or video demo can be submitted as proof of functionality
+
+3. Alternative deployment via Docker or local Flask app is possible
+
+
+ ## Author Info:-
+
+ Shobheet Sharma
+ B.Tech (CSE), Lovely Professional University
+ Intern, Advanced AI Program | Edunet Foundation
+
+ ##  License:-
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project with proper credit.
